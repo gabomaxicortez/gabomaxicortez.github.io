@@ -6946,6 +6946,10 @@ textarea.form-control-lg {
   background-color: #fff !important;
 }
 
+.bg-dark {
+  background-color: #000000 !important;
+}
+
 .bg-transparent {
   background-color: transparent !important;
 }
@@ -9689,12 +9693,27 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   padding-left: 2rem;
 }
 
+.resume-timeline-2 {
+  padding-left: 2rem;
+}
+
 .resume-timeline:before {
   content: "";
   display: inline-block;
   width: 3px;
   height: 100%;
   background: #040404;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+
+.resume-timeline-2:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background: #ffffff00;
   left: 6px;
   top: 4px;
   position: absolute;
